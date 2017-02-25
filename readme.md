@@ -1,5 +1,5 @@
 # Monitor Location
-- English -
+### English
 
 Monitoring app connected to a Ubidots's server. Allows to send info to the ubidots server in 3 manners (you can check all of them at the same time):
 * Time (customizable).
@@ -11,7 +11,7 @@ The app also records the activity that the user is doing with his device. It use
 
 Note: Added some examples locations
 
-- Español -
+### Español
 
 App de monitorización conectada a un servidor de Ubidots. Permite enviar información al servidor de ubidots de 3 formas (pueden seleccionarse todas ellas a la vez):
 * Tiempo (configurable).
@@ -24,6 +24,7 @@ La app también registra la actividad que está haciendo el usuario con su dispo
 Nota: Se ha añadido algunas localizaciones de ejemplo.
 
 ## Screenshots
-
+Server
 ![Monitor Location Screenshot0](./screenshots/monitorLocation0.png?raw=true)
+App
 ![Monitor Location Screenshot1](./screenshots/monitorLocation1.png?raw=true)
