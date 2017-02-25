@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configura el Seguimiento por:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <CheckBox android:id="@+id/checkbox_ConfigurarTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiempo en segundos"
+        android:onClick="onCheckboxClicked"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SB_TiempoUpdate"
+        android:max="100"
+        android:progress="1"
+        android:indeterminate="false"
+        android:visibility="gone"
+        />
+
+    <CheckBox android:id="@+id/checkbox_ConfigurarDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distancia en metros"
+        android:onClick="onCheckboxClicked"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SB_DistanciaActualizacion"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="1"
+        android:visibility="gone"
+        />
+
+    <CheckBox android:id="@+id/checkbox_CambioZona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Con cambio de zona"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar datos ya a ubidots"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:id="@+id/button"
+        android:textAlignment="center"
+        android:onClick="enviarDatosYa"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Última información registrada:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Fecha y hora:\nLocalización:\nZona:\nActividades:"
+        android:id="@+id/TV_UltimaInfoRegistrada"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Última información enviada:"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Fecha y hora:\nLocalización:\nZona:\nActividades:"
+        android:id="@+id/TV_Enviada"
+        android:textColor="#000000" />
+
+</LinearLayout>

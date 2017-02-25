@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Monitor Location</string>
+
+
+    <!-- Activity detection strings -->
+    <string name="in_vehicle">En un vehículo</string>
+    <string name="on_bicycle">En una bici</string>
+    <string name="on_foot">A pie</string>
+    <string name="running">Corriendo</string>
+    <string name="still">Quieto</string>
+    <string name="tilting">Tilting</string>
+    <string name="unknown">Actividad Desconocida</string>
+    <string name="walking">Caminando</string>
+    <string name="unidentifiable_activity">Unidentifiable activity: %1$d</string>
+
+    <string name="detected_activities_title">Detected Activities</string>
+
+    <string name="request_activity_updates">Request updates</string>
+    <string name="remove_activity_updates">Remove updates</string>
+    <string name="activity_updates_added">Activity updates added</string>
+    <string name="activity_updates_removed">Activity updates removed</string>
+
+    <string name="not_connected">GoogleApiClient not yet connected. Try again.</string>
+
+
+</resources>
