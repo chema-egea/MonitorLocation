@@ -24,7 +24,7 @@ La app también registra la actividad que está haciendo el usuario con su dispo
 Nota: Se ha añadido algunas localizaciones de ejemplo.
 
 ## Screenshots
-App
+#### App
 ![Monitor Location Screenshot0](./screenshots/monitorLocation0.PNG?raw=true)
-Ubidots
+#### Ubidots
 ![Monitor Location Screenshot1](./screenshots/monitorLocation1.PNG?raw=true)
