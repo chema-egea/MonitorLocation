@@ -5,7 +5,7 @@ Monitoring app connected to a Ubidots's server. Allows to send info to the ubido
 * Time (customizable).
 * Distance (customizable).
 * Established areas (home, gym, university...)
-** Also you can send data in any time with a button.
+* Extra: Also you can send data in any time with a button.
 
 The app also records the activity that the user is doing with his device. It uses the detection of activities service to know if we are walking, by bike, by car, etc.
 
@@ -17,14 +17,14 @@ App de monitorización conectada a un servidor de Ubidots. Permite enviar inform
 * Tiempo (configurable).
 * Distancia (configurable).
 * Zonas establecidas (casa, gimnasio, universidad...)
-** También es posible enviar datos en cualquier momento con un botón.
+* Extra: También es posible enviar datos en cualquier momento con un botón.
 
 La app también registra la actividad que está haciendo el usuario con su dispositivo. Utiliza el servicio de detección de actividades para saber si estamos caminando, en bici, en coche, etc.
 
 Nota: Se ha añadido algunas localizaciones de ejemplo.
 
 ## Screenshots
-Server
-![Monitor Location Screenshot0](./screenshots/monitorLocation0.png?raw=true)
 App
-![Monitor Location Screenshot1](./screenshots/monitorLocation1.png?raw=true)
+![Monitor Location Screenshot0](./screenshots/monitorLocation0.PNG?raw=true)
+Ubidots
+![Monitor Location Screenshot1](./screenshots/monitorLocation1.PNG?raw=true)
